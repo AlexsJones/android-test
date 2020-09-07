@@ -3,8 +3,8 @@ ruby '2.1.2'
 source "https://rubygems.org"
 
 group :automation do
-  gem 'cucumber'
-  gem 'calabash-android', '~> 0.5', ">= 0.5.2"
+  gem 'cucumber', '>= 4.0.0'
+  gem 'calabash-android', '~> 0.5', '>= 0.5.15'
   gem 'rspec'
 end
 
