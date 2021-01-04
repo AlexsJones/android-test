@@ -25,6 +25,6 @@ group :api do
 end
 
 group :dev_tools do
-  gem 'cuporter'
+  gem 'cuporter', '>= 0.3.14'
   gem 'blinkbox-rubocop'
 end
